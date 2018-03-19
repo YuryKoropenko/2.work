@@ -11,8 +11,12 @@ $(document).ready(function(){
 	});
 });
 
+
 $(document).ready(function(){
+	/*
 	$(".btn").magnificPopup();
+	*/
+	$('.phonemask-input').mask("+7 999 999-99-99");
 });
 
 
