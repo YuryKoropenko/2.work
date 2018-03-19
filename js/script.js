@@ -17,6 +17,10 @@ $(document).ready(function(){
 	$(".btn").magnificPopup();
 	*/
 	$('.phonemask-input').mask("+7 999 999-99-99");
+
+	$('.p-fancybox').fancybox({
+		padding : 0
+	});
 });
 
 

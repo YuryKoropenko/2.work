@@ -928,3 +928,6 @@ body .header-title {
 .header__prev:active {
 	border-color: transparent;
 }
+.hidden {
+	display: none;
+}
