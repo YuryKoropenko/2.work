@@ -15,11 +15,10 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.fade__search').on('click', function() {
 		$(this).hide();
-		$('.search__btn').show();
-		$('.hidden-search').fadeIn(500);
-		$('.hidden-search').animate({
-			width: '137px'
+		$('.hidden-search__wrapper').animate({
+			width: '184px'
 		}, 500);
+		return false;
 	});
 	/*
 	$(".btn").magnificPopup();
