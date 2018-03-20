@@ -14,12 +14,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('.fade__search').on('click', function() {
-		$(this).removeClass('fade__search');
+		$(this).hide();
+		$('.search__btn').show();
 		$('.hidden-search').fadeIn(500);
 		$('.hidden-search').animate({
 			width: '137px'
 		}, 500);
-		return false;
 	});
 	/*
 	$(".btn").magnificPopup();
