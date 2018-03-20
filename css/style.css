@@ -33,7 +33,7 @@ body{
 
 .tel{
 	text-align: right;
-    width: 174px;
+    width: auto;
     float: right;
 }
 .tel button{
@@ -42,6 +42,9 @@ body{
 	outline: none;
 	cursor: pointer;
 	background: transparent;
+	float: right;
+	margin-top: 4px;
+	margin-left: 4px;
 }
 .tel button:hover{
 	color: #c70000;
@@ -59,15 +62,25 @@ body{
 	padding-right: 14px;
 }
 .tel input{
-	display: none;	
+	float: left;
+	margin-left: 10px;
+	height: 27px;
+	outline: none;
+	text-align: left;
+	padding: 0 10px;
+	border: 1px solid #4e9ecc;
+	border-radius: 4px;
+	margin-top: -2px;
+	display: none;
+	width: 0;
 }
 .menu ul{
 	padding: 0;
 	list-style: none;
 	float: right;
+	clear: right;
 	margin: 0;
-	margin-top: 32px;
-    margin-right: -168px;
+	margin-top: 0;
 }
 .menu ul li{
 	display: inline-block;
